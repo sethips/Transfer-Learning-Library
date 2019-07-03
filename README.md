@@ -1,6 +1,12 @@
 # Transfer-Learning-Library
 Transfer Learning Library written in Keras for image classification. 
 
+## Goals
+
+- To classify images without making any custom model but rather using keras built in models.
+
+- To get good accuracy for classifying almost any image in real time.
+
 ## Models
 
 All the Keras built in models are available
@@ -19,4 +25,25 @@ All the Keras built in models are available
 | DenseNet201    | 80 MB    | 0.770    | 0.933    | 20,242,984    |  201    |
 | NASNetMobile    | 21 MB    | NA    | NA    | 5,326,716    |  NA    |
 | NASNetLarge    | 342 MB    | NA    | NA    | 88,949,818    |  NA    |
+
+## To Execute
+
+`pip install keras`
+
+`git clone https://github.com/abhinavsagar/Transfer-Learning-Library.git`
+
+`cd Transfer-Learning-Library`
+
+`python main.py --model Xception`
+
+## Result
+
+![dog](dog.jpeg)
+Labrador_retriever (80.23%)
+
+## Would you like to support me?
+
+<a href="https://www.buymeacoffee.com/abhinavsagar" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+
 
