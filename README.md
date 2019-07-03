@@ -5,7 +5,7 @@ Transfer Learning Library written in Keras for image classification.
 
 - To classify images without making any custom model but rather using keras built in models.
 
-- To get good accuracy for classifying almost any image in real time.
+- To get high accuracy for classifying almost any image.
 
 ## Models
 
@@ -38,8 +38,9 @@ All the Keras built in models are available
 
 ## Result
 
-![dog](dog.jpeg)
-Labrador_retriever (80.23%)
+![soccer ball](soccer_ball.jpeg)
+
+soccer_ball (99.96%)
 
 ## Would you like to support me?
 
