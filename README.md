@@ -7,7 +7,7 @@ Transfer Learning Library written in Keras for image classification.
 
 - To get high accuracy for classifying almost any image.
 
-There are several substantial benefits to leveraging pre-trained models:
+### There are several substantial benefits to leveraging pre-trained models:
 
 - super simple to incorporate
 - achieve same or even better(depending on the dataset) model performance quickly
