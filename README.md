@@ -7,6 +7,13 @@ Transfer Learning Library written in Keras for image classification.
 
 - To get high accuracy for classifying almost any image.
 
+There are several substantial benefits to leveraging pre-trained models:
+
+- super simple to incorporate
+- achieve same or even better(depending on the dataset) model performance quickly
+- there’s not as much labeled data required
+- versatile uses cases from transfer learning, prediction, and feature extraction
+
 ## Models
 
 All the Keras built in models are available
