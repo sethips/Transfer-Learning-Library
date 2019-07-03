@@ -40,7 +40,7 @@ All the Keras built in models are available
 
 ![soccer ball](soccer_ball.jpeg)
 
-###                    soccer_ball (99.96%)
+#### soccer_ball (99.96%)
 
 ## Would you like to support me?
 
