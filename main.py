@@ -25,7 +25,7 @@ if args.model == "VGG16":
     from keras.applications.vgg16 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = VGG16()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('football.jpeg', target_size=(224, 224))
 elif args.model == "VGG19":
     from keras.applications.vgg19 import preprocess_input
     from keras.applications.vgg19 import decode_predictions
