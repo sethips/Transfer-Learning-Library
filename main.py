@@ -25,73 +25,73 @@ if args.model == "VGG16":
     from keras.applications.vgg16 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = VGG16()
-    image = load_img('football.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "VGG19":
     from keras.applications.vgg19 import preprocess_input
     from keras.applications.vgg19 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = VGG19()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "ResNet50":
     from keras.applications.resnet50 import preprocess_input
     from keras.applications.resnet50 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = ResNet50()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "InceptionV3":
     from keras.applications.inception_v3 import preprocess_input
     from keras.applications.inception_v3 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = InceptionV3()
-    image = load_img('dog.jpeg', target_size=(299, 299))
+    image = load_img('soccer_ball.jpeg', target_size=(299, 299))
 elif args.model == "Xception":
     from keras.applications.xception import preprocess_input
     from keras.applications.xception import decode_predictions
     preprocessing_function = preprocess_input
     base_model = Xception()
-    image = load_img('dog.jpeg', target_size=(299, 299))
+    image = load_img('soccer_ball.jpeg', target_size=(299, 299))
 elif args.model == "InceptionResNetV2":
     from keras.applications.inceptionresnetv2 import preprocess_input
     from keras.applications.inceptionresnetv2 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = InceptionResNetV2()
-    image = load_img('dog.jpeg', target_size=(299, 299))
+    image = load_img('soccer_ball.jpeg', target_size=(299, 299))
 elif args.model == "MobileNet":
     from keras.applications.mobilenet import preprocess_input
     from keras.applications.mobilenet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = MobileNet()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "DenseNet121":
     from keras.applications.densenet import preprocess_input
     from keras.applications.densenet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = DenseNet121()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "DenseNet169":
     from keras.applications.densenet import preprocess_input
     from keras.applications.densenet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = DenseNet169()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "DenseNet201":
     from keras.applications.densenet import preprocess_input
     from keras.applications.densenet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = DenseNet201()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "NASNetLarge":
     from keras.applications.nasnet import preprocess_input
     from keras.applications.nasnet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = NASNetLarge()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 elif args.model == "NASNetMobile":
     from keras.applications.nasnet import preprocess_input
     from keras.applications.nasnet import decode_predictions
     preprocessing_function = preprocess_input
     base_model = NASNetMobile()
-    image = load_img('dog.jpeg', target_size=(224, 224))
+    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
 else:
     ValueError("The model you requested is not supported in Keras")
     
