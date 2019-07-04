@@ -95,6 +95,8 @@ elif args.model == "NASNetMobile":
 else:
     ValueError("The model you requested is not supported in Keras")
     
+base_model.summary()
+    
 # convert the image pixels to a numpy array
 image = img_to_array(image)
 # reshape data for the model
