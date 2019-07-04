@@ -51,7 +51,16 @@ All the Keras built in models are available
 
 ## Citing
 
-If you find this repository useful, please consider citing it using a link to the repo :)
+```
+@misc{Abhinav:2019,
+  Author = {Abhinav Sagar},
+  Title = {Transfer Learning Library},
+  Year = {2019},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/abhinavsagar/Transfer-Learning-Library}}
+}
+```
 
 ## References
 
