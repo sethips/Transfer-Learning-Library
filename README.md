@@ -125,10 +125,3 @@ soccer_ball (99.99%)
 ## References
 
 https://github.com/keras-team/keras-applications
-
-## Would you like to support me?
-
-<a href="https://www.buymeacoffee.com/abhinavsagar" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-
-
