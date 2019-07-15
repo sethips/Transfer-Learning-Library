@@ -38,7 +38,7 @@ All the Keras built in models are available
 
 `python main.py --model Xception`
 
-## Result
+## Results
 
 ![soccer ball](soccer_ball.jpeg)
 
