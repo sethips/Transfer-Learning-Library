@@ -37,7 +37,7 @@ elif args.model == "ResNet50":
     from keras.applications.resnet50 import decode_predictions
     preprocessing_function = preprocess_input
     base_model = ResNet50()
-    image = load_img('soccer_ball.jpeg', target_size=(224, 224))
+    image = load_img('airplane.jpeg', target_size=(224, 224))
 elif args.model == "InceptionV3":
     from keras.applications.inception_v3 import preprocess_input
     from keras.applications.inception_v3 import decode_predictions
