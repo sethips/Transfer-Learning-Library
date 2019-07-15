@@ -1,6 +1,8 @@
 # Transfer-Learning-Library
 Transfer Learning Library written in Keras for image classification. 
 
+Check out the corresponding medium blog post [Transfer Learning for Image Classification in Keras](https://medium.com/@abhinav.sagar/transfer-learning-for-image-classification-in-keras-5585d3ddf54e).
+
 ## Goals
 
 - To classify images without making any custom model but rather using keras built in models.
