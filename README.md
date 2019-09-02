@@ -1,7 +1,7 @@
 # Transfer-Learning-Library
 Transfer Learning Library written in Keras for image classification. 
 
-Check out the corresponding medium blog post [Transfer Learning for Image Classification in Keras](https://medium.com/@abhinav.sagar/transfer-learning-for-image-classification-in-keras-5585d3ddf54e).
+Check out the corresponding medium blog post [https://towardsdatascience.com/transfer-learning-for-image-classification-in-keras-5585d3ddf54e](https://towardsdatascience.com/transfer-learning-for-image-classification-in-keras-5585d3ddf54e).
 
 ## Goals
 
